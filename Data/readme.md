@@ -45,4 +45,4 @@ Real-world sequences (or any self-prepared sequences) need to be configured via 
     line 133: df.drop(df.columns[0], axis=1, inplace=True)
     ```
 
-> 🔔 Please set `use_ff=False` at line 54 in **./Models/interpretable_diffusion/gaussian_diffusion.py** if your temporal data is highly irregular.
+> 🔔 Please set `use_ff=False` at line 54 in **./Models/diffMam/gaussian_diffusion.py** if your temporal data is highly irregular.
